@@ -3,6 +3,14 @@ This project develops an automated safety detection system for construction site
 
 By analyzing video feeds, the system provides immediate compliance feedback, enabling quick corrective actions. The goal is to enhance workplace safety, reduce accidents, and increase operational efficiency. Through features like real-time alerts and data analytics, the project promotes a culture of safety among workers, contributing to a safer and more efficient construction environment.
 
+https://github.com/user-attachments/assets/f465bcda-462b-43fd-a1fe-01d7df535050
+
+https://github.com/user-attachments/assets/54e4c301-dd21-4d0c-b0f4-21a229535e6d
+
+https://github.com/user-attachments/assets/92f400f2-2b0f-4b32-a782-8cf650ecfee4
+
+https://github.com/user-attachments/assets/ef5e84f1-97c3-406b-8721-92ce94161f61
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Problem Statement](#problem-statement)
