@@ -100,7 +100,33 @@ The model is trained using the [Construction Site Safety Dataset](https://univer
 ### Continuous Monitoring
 - **Real-time Update:**
   - The loop runs indefinitely, updating the output window with each processed frame until manually stopped.
+ 
+## Results
+The YOLOv8 object detection model has demonstrated high effectiveness in monitoring construction site safety, achieving over 90% accuracy in detecting safety gear such as hardhats, safety vests, and masks. The system provides immediate feedback, enabling quick corrective actions and reducing the need for manual inspections.
 
+## Impact
+- **Enhanced Safety Compliance:** The automated system helps minimize workplace accidents, promoting a culture of safety.
+- **Cost Savings:** Reducing accidents leads to lower medical costs, insurance claims, and potential legal liabilities, which can result in decreased insurance premiums.
+- **Increased Productivity:** By freeing up resources from manual inspections, construction managers can focus on improving project efficiency.
+- **Scalability:** The solution can be easily implemented across multiple sites, standardizing safety compliance monitoring.
+- **Data-Driven Insights:** The system generates valuable data on safety trends, allowing for targeted training and risk assessment.
 
+This project leverages technology to improve safety standards in the construction industry, contributing to a safer and more efficient work environment.
+
+## Further Improvements
+- **Model Optimization:**
+  - **Fine-tuning the Model:** Continuously update the YOLOv8 model with new data to improve accuracy and adaptability to different site conditions.
+
+- **Real-time Alerts:**
+  - **Integration with Alert Systems:** Implement a system that sends immediate notifications to supervisors and workers when safety violations are detected, facilitating quicker responses.
+
+- **Multi-camera Setup:**
+  - **Expanded Coverage:** Utilize multiple cameras to provide comprehensive monitoring of the site, reducing blind spots and ensuring all areas are monitored effectively.
+
+- **User Interface Enhancements:**
+  - **Dashboard Development:** Create a user-friendly dashboard to display real-time compliance data and historical trends, empowering managers to make informed decisions.
+
+- **Data Analytics:**
+  - **Advanced Analytics:** Employ machine learning techniques to analyze detected violations and uncover patterns, enabling targeted interventions and improving safety compliance.
 
 
