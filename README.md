@@ -6,6 +6,9 @@ This project utilizes the YOLO (You Only Look Once) object detection model to mo
 - [Problem Statement](#problem-statement)
 - [Dataset](#dataset)
 - [Computer Vision](#computer-vision)
+- [Results](#results)
+- [Impact](#impact)
+- [Further Improvements](#further-improvements)
 
 ## Project Overview
 **Overview:** This project aims to enhance safety at construction sites by automatically detecting safety gear violations using computer vision techniques. Utilizing the YOLOv8 (You Only Look Once) object detection model, the system identifies personnel and safety equipment such as hardhats, safety vests, and masks. It also flags safety violations like the absence of required gear. This solution can be deployed in real-time to monitor construction sites and ensure compliance with safety protocols.
@@ -31,7 +34,7 @@ This project utilizes the YOLO (You Only Look Once) object detection model to mo
 ## Problem Statement
 Ensuring safety compliance at construction sites is a critical concern, as failure to wear proper safety gear can lead to severe accidents, injuries, and even fatalities. Current methods of monitoring safety compliance often rely on manual inspection, which is time-consuming, error-prone, and not feasible for continuous real-time monitoring. With large and complex construction sites, it becomes increasingly challenging to ensure that all workers are adhering to safety protocols, such as wearing hardhats, safety vests, and masks.
 
-There is a need for an automated system that can reliably and efficiently detect safety gear violations in real time, minimizing the risk of human error and improving safety outcomes. Such a system should be capable of identifying workers, detecting the presence or absence of required safety equipment, and providing immediate feedback for corrective action. This would help construction managers enforce safety regulations, reduce the occurrence of accidents, and ensure a safer working environment.
+There is a need for an automated system that can reliably and efficiently detect safety gear violations in real-time, minimizing the risk of human error and improving safety outcomes. Such a system should be capable of identifying workers, detecting the presence or absence of required safety equipment, and providing immediate feedback for corrective action. This would help construction managers enforce safety regulations, reduce the occurrence of accidents, and ensure a safer working environment.
 
 ## Dataset
 The model is trained using the [Construction Site Safety Dataset](https://universe.roboflow.com/roboflow-universe-projects/construction-site-safety/dataset/27), which includes labeled images of construction workers with and without safety gear. The dataset consists of classes such as:
