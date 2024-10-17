@@ -1,11 +1,23 @@
 # Real-Time PPE Detection and Safety Monitoring with YOLO
-This project utilizes the YOLO (You Only Look Once) object detection model to monitor and detect the presence of personal protective equipment (PPE) in real-time. It identifies safety compliance by detecting items such as hardhats, safety vests, and masks, as well as flagging violations like missing PPE. The system processes video input, drawing bounding boxes around detected objects, and color-codes them to differentiate between safe and unsafe conditions. This solution is designed for real-time monitoring in industrial and construction environments to enhance workplace safety.
+This project develops an automated safety detection system for construction sites using the YOLOv8 object detection model. It identifies and monitors personal protective equipment (PPE) such as hardhats, safety vests, and masks, while also detecting safety violations in real-time.
+
+By analyzing video feeds, the system provides immediate compliance feedback, enabling quick corrective actions. The goal is to enhance workplace safety, reduce accidents, and increase operational efficiency. Through features like real-time alerts and data analytics, the project promotes a culture of safety among workers, contributing to a safer and more efficient construction environment.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Problem Statement](#problem-statement)
 - [Dataset](#dataset)
 - [Computer Vision](#computer-vision)
+  - [Environment Setup](#environment-setup)
+  - [Model Inference](#model-inference)
+  - [Model Training](#model-training)
+  - [Video Processing Setup](#video-processing-setup)
+  - [Model Loading](#model-loading)
+  - [Detection Loop](#detection-loop)
+  - [Object Classification](#object-classification)
+  - [Visualization](#visualization)
+  - [Output Display](#output-display)
+  - [Continuous Monitoring](#continuous-monitoring)
 - [Results](#results)
 - [Impact](#impact)
 - [Further Improvements](#further-improvements)
