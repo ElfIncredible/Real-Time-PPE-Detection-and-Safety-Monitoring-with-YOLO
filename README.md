@@ -13,13 +13,14 @@ This project utilizes the YOLO (You Only Look Once) object detection model to mo
 **Objective:** To develop a machine learning model capable of detecting and classifying objects related to construction site safety, identifying violations such as missing hardhats, safety vests, or masks, and providing real-time alerts for corrective actions.
 
 **Methodology:** 
-YOLOv8: The model architecture used for real-time object detection.
-Training: The model is trained on the construction site dataset for 50 epochs with an image size of 640x640 pixels.
-Video Processing: The model processes video feeds from construction sites, identifying workers and their compliance with safety gear requirements.
-Visualization: Bounding boxes and class labels are drawn on the video feed, with color-coded indicators:
-Green: Proper safety equipment worn (e.g., hardhat, mask, safety vest)
-Red: Safety violations (e.g., no hardhat, no mask, no vest)
-Blue: Other objects like machinery and vehicles
+
+- **YOLOv8:** The model architecture used for real-time object detection.
+- **Training:** The model is trained on the construction site dataset for 50 epochs with an image size of 640x640 pixels.
+- **Video Processing:** The model processes video feeds from construction sites, identifying workers and their compliance with safety gear requirements.
+- **Visualization:** Bounding boxes and class labels are drawn on the video feed, with color-coded indicators:
+  - **Green:** Proper safety equipment worn (e.g., hardhat, mask, safety vest)
+  - **Red:** Safety violations (e.g., no hardhat, no mask, no vest)
+  - **Blue:** Other objects like machinery and vehicles
 
 **Technology Stack:**
 - Python
