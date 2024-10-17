@@ -44,3 +44,63 @@ The model is trained using the [Construction Site Safety Dataset](https://univer
 - Machinery
 - Vehicle
 - Person
+
+## Computer Vision
+### Environment Setup
+**GPU Initialization:**
+- !nvidia-smi is used to check the availability and status of the GPU for model training and inference.
+
+**Package Installation:**
+- The command !pip install ultralytics installs the required package for the YOLO model.
+
+### Model Inference
+**Model Loading and Prediction:**
+-The command !yolo task=detect mode=predict model=yolov8l.pt conf=0.25 source='https://ultralytics.com/images/bus.jpg' performs object detection on a sample image to demonstrate the model’s capabilities.
+
+### Model Training
+- **Training the YOLO Model:**
+  - The command !yolo task=detect mode=train model=yolov8l.pt data=../content/drive/MyDrive/Datasets/ConstructionSiteSafetyYolov8/data.yaml epochs=50 imgsz=640 trains the YOLO model on the construction site safety dataset for 50 epochs, with image sizes set to 640x640 pixels.
+
+### Video Processing Setup
+**Importing Libraries:**
+- Necessary libraries like cv2 for image processing, cvzone for additional utilities, and math for calculations are imported.
+
+**Video Capture Initialization:**
+- The code initializes video capture from a file (ppe-1-1.mp4) to process video frames for safety gear detection.
+
+### Model Loading
+- **Loading the Trained Model:**
+  - The pre-trained model ppe.pt is loaded for detecting safety equipment in the video frames.
+
+### Detection Loop
+- **Frame Processing:**
+  - A loop is established to continuously read frames from the video.
+  - For each frame, the model performs object detection.
+
+- **Bounding Box Extraction:**
+  - Detected bounding boxes and their coordinates are extracted, and the detection confidence score is calculated.
+
+### Object Classification
+- **Class Detection and Confidence Filtering:**
+  - The class names are defined, and the model checks for each detected object’s confidence score.
+  - Objects with a confidence score above 0.5 are processed for visualization.
+
+### Visualization
+- **Drawing Bounding Boxes:**
+  - The code uses color coding to indicate compliance:
+    - **Red** for safety violations (e.g., missing hardhat or mask).
+    - **Green** for proper safety gear.
+    - **Blue** for other detected objects.
+  - Class names and confidence scores are displayed on the video frames.
+
+### Output Display
+- **Displaying Processed Frames:**
+  - The processed video frames with detections are displayed in a window, allowing real-time monitoring of safety compliance.
+
+### Continuous Monitoring
+- **Real-time Update:**
+  - The loop runs indefinitely, updating the output window with each processed frame until manually stopped.
+
+
+
+
