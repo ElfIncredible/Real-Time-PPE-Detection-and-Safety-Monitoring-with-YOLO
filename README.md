@@ -71,7 +71,7 @@ The model is trained using the [Construction Site Safety Dataset](https://univer
 ## Computer Vision
 ### Environment Setup
 **GPU Initialization:**
-- '''!nvidia-smi is used to check the availability and status of the GPU for model training and inference.
+- 'print(!nvidia-smi)' is used to check the availability and status of the GPU for model training and inference.
 
 **Package Installation:**
 - The command *!pip install ultralytics* installs the required package for the YOLO model.
